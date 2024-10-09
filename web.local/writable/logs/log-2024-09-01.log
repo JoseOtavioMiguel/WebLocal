@@ -1,0 +1,493 @@
+CRITICAL - 2024-09-01 00:00:24 --> ParseError: syntax error, unexpected variable "$projeto_id"
+[Method: GET, Route: projetos/listarProjeto/41]
+in APPPATH\Views\projetos\listarProjetos.php on line 91.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('41')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:01:08 --> ParseError: syntax error, unexpected variable "$projeto_id"
+[Method: GET, Route: projetos/listarProjeto/41]
+in APPPATH\Views\projetos\listarProjetos.php on line 91.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('41')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:01:21 --> ParseError: syntax error, unexpected variable "$projeto_id"
+[Method: GET, Route: projetos/listarProjeto/41]
+in APPPATH\Views\projetos\listarProjetos.php on line 91.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('41')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-01 00:05:59 --> mysqli_sql_exception: Duplicate entry '41' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Home.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-01 00:05:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '41' for key 'PRIMARY'
+[Method: POST, Route: avaliar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:05:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '41' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'41\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'41\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:05:59 --> [Caused by] mysqli_sql_exception: Duplicate entry '41' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'41\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'41\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'41\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:06:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: projetos/listarProjeto/41]
+in APPPATH\Views\projetos\listarProjetos.php on line 83.
+ 1 APPPATH\Views\projetos\listarProjetos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('41')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-01 00:06:24 --> mysqli_sql_exception: Duplicate entry '42' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Home.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-01 00:06:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '42' for key 'PRIMARY'
+[Method: POST, Route: avaliar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:06:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '42' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'42\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'42\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:06:24 --> [Caused by] mysqli_sql_exception: Duplicate entry '42' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'42\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'42\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'42\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'8.26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-01 00:14:39 --> mysqli_sql_exception: Unknown column 'validado' in 'field list' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Home.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Home->cadastrar()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-01 00:14:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'validado' in 'field list'
+[Method: POST, Route: cadastrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (:nomeProjeto:, :descricaoProjeto:, :resumoProjeto:, :validado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(41): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->cadastrar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:14:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'validado' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (\'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'NAO \')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (\'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'NAO \')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (:nomeProjeto:, :descricaoProjeto:, :resumoProjeto:, :validado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(41): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->cadastrar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:14:39 --> [Caused by] mysqli_sql_exception: Unknown column 'validado' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (\'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'NAO \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (\'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'NAO \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (\'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'Pesquisa sobre psicologia do ensino na educação superior.\', \'NAO \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `projetos` (`nomeProjeto`, `descricaoProjeto`, `resumoProjeto`, `validado`) VALUES (:nomeProjeto:, :descricaoProjeto:, :resumoProjeto:, :validado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(41): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->cadastrar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:15:04 --> ErrorException: Undefined array key "validado"
+[Method: GET, Route: projetos/listarProjeto/46]
+in APPPATH\Views\projetos\listarProjetos.php on line 170.
+ 1 APPPATH\Views\projetos\listarProjetos.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validado"', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('46')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:18:02 --> ParseError: syntax error, unexpected single-quoted string "data", expecting "]"
+[Method: GET, Route: projetos/listar]
+in APPPATH\Models\ProjetoModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web.local\\app\\Models\\ProjetoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProjetoModel')
+ 3 APPPATH\Controllers\Home.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProjetoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:18:02 --> ParseError: syntax error, unexpected single-quoted string "data", expecting "]"
+[Method: GET, Route: projetos/listar]
+in APPPATH\Models\ProjetoModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web.local\\app\\Models\\ProjetoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProjetoModel')
+ 3 APPPATH\Controllers\Home.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProjetoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:29:15 --> Error: Call to undefined method App\Controllers\Home::update()
+[Method: POST, Route: avaliar]
+in APPPATH\Controllers\Home.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:36:45 --> ErrorException: Undefined variable $projeto_id
+[Method: POST, Route: avaliar]
+in APPPATH\Controllers\Home.php on line 66.
+ 1 APPPATH\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projeto_id', 'C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Home.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 00:59:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: projetos/listarProjeto/avaliar/47]
+in APPPATH\Views\projetos\listarProjetos.php on line 83.
+ 1 APPPATH\Views\projetos\listarProjetos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('avaliar', '47')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:04:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: avaliar]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:07:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: avaliar]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\Home.php(69): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:07:47 --> ErrorException: Undefined variable $valido
+[Method: POST, Route: avaliar]
+in APPPATH\Controllers\Home.php on line 69.
+ 1 APPPATH\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valido', 'C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Home.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-01 01:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-01 01:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-01 01:12:20 --> mysqli_sql_exception: Duplicate entry '47' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Home.php(67): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-01 01:12:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '47' for key 'PRIMARY'
+[Method: POST, Route: avaliar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:12:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '47' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'47\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'0.00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'47\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'0.00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:12:20 --> [Caused by] mysqli_sql_exception: Duplicate entry '47' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'47\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'0.00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'47\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'0.00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'47\', \'9\', \'9\', \'8\', \'9\', \'6\', \'7.8\', \'9\', \'0.00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacao` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(67): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:15:25 --> ErrorException: Undefined variable $proj
+[Method: GET, Route: projetos/listarProjeto/47]
+in APPPATH\Views\projetos\listarProjetos.php on line 83.
+ 1 APPPATH\Views\projetos\listarProjetos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proj', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('47')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:16:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: projetos/listarProjeto/excluir/47]
+in APPPATH\Views\projetos\listarProjetos.php on line 83.
+ 1 APPPATH\Views\projetos\listarProjetos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('excluir', '47')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 01:17:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: projetos/listarProjeto/avaliar/47]
+in APPPATH\Views\projetos\listarProjetos.php on line 83.
+ 1 APPPATH\Views\projetos\listarProjetos.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(24): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('avaliar', '47')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-01 01:31:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`descricaoProjeto` VARCHAR NOT NULL,
+	`validado` VARCHAR NOT NULL,...' at line 4 in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\web.local\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\web.local\app\Database\Migrations\2024-08-29-134519_Projetos.php(43): CodeIgniter\Database\Forge->createTable('projetos')
+#5 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(867): App\Database\Migrations\Projetos->up()
+#6 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web.local\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web.local\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web.local\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web.local\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\web.local\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\web.local\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-09-01 23:02:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "administrador/avaliador.php"
+[Method: GET, Route: dadosAvaliador]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrador/avaliador.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('administrador/avaliador', [], true)
+ 3 APPPATH\Controllers\Avaliador.php(14): view('administrador/avaliador')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 23:28:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/login/loginUsuario.php"
+[Method: GET, Route: login/loginUsuario]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login/loginUsuario.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('/login/loginUsuario', [], true)
+ 3 APPPATH\Controllers\Login.php(18): view('/login/loginUsuario')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->loginUsuario()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-01 23:29:40 --> ErrorException: Cannot declare class App\Controllers\Login, because the name is already in use
+[Method: GET, Route: login/loginUsuario]
+in APPPATH\Views\login\loginUsuario.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

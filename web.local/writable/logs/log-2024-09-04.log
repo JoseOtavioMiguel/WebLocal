@@ -1,0 +1,96 @@
+CRITICAL - 2024-09-04 10:50:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "projetos/index.php"
+[Method: GET, Route: projetos/index]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projetos/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/index', [], true)
+ 3 APPPATH\Controllers\Projetos.php(16): view('projetos/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 10:50:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "projetos/index.php"
+[Method: GET, Route: projetos/index]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projetos/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/index', [], true)
+ 3 APPPATH\Controllers\Projetos.php(16): view('projetos/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 10:50:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "projetos/index.php"
+[Method: GET, Route: projetos/index]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projetos/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/index', [], true)
+ 3 APPPATH\Controllers\Projetos.php(16): view('projetos/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 10:50:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "projetos/index.php"
+[Method: GET, Route: projetos/index]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('projetos/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/index', [], true)
+ 3 APPPATH\Controllers\Projetos.php(16): view('projetos/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 10:53:14 --> ErrorException: Undefined variable $projetos
+[Method: GET, Route: projetos/projetosAprovados]
+in APPPATH\Views\projetos\projetosAprovados.php on line 277.
+ 1 APPPATH\Views\projetos\projetosAprovados.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projetos', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\projetosAprovados.php', 277)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\projetosAprovados.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/projetosAprovados', [], true)
+ 5 APPPATH\Controllers\Projetos.php(96): view('projetos/projetosAprovados')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->projetosAprovados()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 11:32:59 --> TypeError: htmlspecialchars(): Argument #2 ($flags) must be of type int, string given
+[Method: GET, Route: projetos/listarProjeto/56]
+in APPPATH\Views\projetos\listarProjetos.php on line 247.
+ 1 APPPATH\Views\projetos\listarProjetos.php(247): htmlspecialchars('Inteligência Artificial na Prevenção de Doenças Crônicas', 'UTF-8')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(41): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('56')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 21:03:05 --> ErrorException: Cannot redeclare formatString() (previously declared in C:\xampp\htdocs\web.local\app\Views\projetos\listar.php:281)
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 281.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-04 21:03:32 --> ErrorException: Cannot redeclare formatString() (previously declared in C:\xampp\htdocs\web.local\app\Views\projetos\listar.php:281)
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 281.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-04 21:05:07 --> ErrorException: Cannot redeclare formatString() (previously declared in C:\xampp\htdocs\web.local\app\Views\projetos\listar.php:279)
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 279.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-04 21:05:09 --> ErrorException: Cannot redeclare formatString() (previously declared in C:\xampp\htdocs\web.local\app\Views\projetos\listar.php:279)
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 279.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-04 21:06:18 --> ErrorException: Cannot redeclare formatString() (previously declared in C:\xampp\htdocs\web.local\app\Views\projetos\listar.php:279)
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 279.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

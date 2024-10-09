@@ -1,0 +1,90 @@
+CRITICAL - 2024-09-27 00:02:58 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'SIMff', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 00:03:07 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'SIMfff', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 00:03:32 --> CodeIgniter\Validation\Exceptions\ValidationException: "min_lenght" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'NAO', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 00:03:48 --> CodeIgniter\Validation\Exceptions\ValidationException: "max_lengh" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lengh')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'SIMDD', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 00:04:01 --> CodeIgniter\Validation\Exceptions\ValidationException: "max_lengh" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lengh')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'NAO', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-27 00:04:33 --> CodeIgniter\Validation\Exceptions\ValidationException: "max_lenght" is not a valid rule.
+[Method: POST, Route: editar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('validado', 'validado', 'SIM', [...], [...], 'validado')
+ 3 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(1000): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\Home.php(109): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->editar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

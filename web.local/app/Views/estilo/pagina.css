@@ -1,0 +1,12 @@
+.main-sidebar
+{
+  background-image: url('/web.local/public/images/fundo_azul.jpeg'); /* Caminho para sua imagem */
+  background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  height: 100vh; /* Ajusta a altura para cobrir toda a viewport */
+  width: 250px; /* Define a largura da sidebar */
+  position: fixed; /* Fixar a sidebar no lado */
+  top: 0;
+  left: 0;
+}
