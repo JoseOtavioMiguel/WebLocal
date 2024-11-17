@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\Database",
-    "\\app\\Database\\Migrations",
+    "\\app\\Config",
+    "\\app\\Controllers",
     "\\app\\Models",
     "\\app\\Views",
-    "\\app\\Views\\interface",
+    "\\app\\Views\\interfaceAvaliador",
     "\\app\\Views\\login",
     "\\app\\Views\\projetos",
-    "\\public",
-    "\\public\\images"
+    "\\public"
   ],
+  "SelectedNode": "\\app\\Views\\projetos\\listar.php",
   "PreviewInSolutionExplorer": false
 }

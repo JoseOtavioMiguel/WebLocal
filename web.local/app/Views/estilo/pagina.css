@@ -10,3 +10,13 @@
   top: 0;
   left: 0;
 }
+
+.main-footer {
+    padding: 1rem 0;
+}
+
+@media (max-width: 576px) {
+    .main-footer {
+        text-align: center;
+    }
+}

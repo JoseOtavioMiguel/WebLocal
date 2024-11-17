@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class AvaliacaoModel extends Model
 {
     protected $table            = 'avaliacao';
-    protected $primaryKey       = 'IdProjeto';
+    protected $primaryKey       = 'Id_Projeto';
     protected $useAutoIncrement = false;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
@@ -57,5 +57,16 @@ class AvaliacaoModel extends Model
     public function validarProjeto($projeto_id)
     {
         return $this->update($projeto_id, ['validado' => 'SIM']);
+    }
+
+    public function getProjetosComMedia()
+    {
+    return $this->db->table('projetos')
+                    ->select('projetos.*, AVG(avaliacao.media) as media')
+                    ->join('avaliacao', 'avaliacao.IdProjeto = projetos.id', 'left')
+                    ->groupBy('projetos.id')
+                    ->having('media >=', 6)
+                    ->get()
+                    ->getResultArray();
     }
 }

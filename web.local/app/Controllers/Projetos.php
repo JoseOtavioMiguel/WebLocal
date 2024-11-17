@@ -7,6 +7,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\ProjetoModel;
 use App\Models\AvaliadorModel;
 use App\Models\AvaliadorProjeto;
+use App\Models\AvaliacaoModel;
 
 class Projetos extends BaseController
 {
@@ -16,16 +17,16 @@ class Projetos extends BaseController
         echo view ('projetos/index');
         echo view('interface/footer');
     }
-
+    /*
     public function cadastrarAvaliador()
     {
         $dados = $this->request
                         ->getPost();
-        $avaliador_model = new AvaliadorModel();
+        $avaliador_model = new AvaliadorProjeto();
         $avaliador_model->insert($dados);
         $url = base_url('/web.local/public/projetos/listarAvaliador/?alert=successCreate');
         return redirect()->to($url);
-    }
+    }*/
 
     public function listarProjeto($id)
     {
@@ -94,6 +95,16 @@ class Projetos extends BaseController
     {
         echo view('interface/header');
         echo view('projetos/projetosAprovados');
+        echo view('interface/footer');
+    }
+
+    public function listarProjetosAprovados()
+    {
+        $model = new AvaliacaoModel(); 
+        $projetos = $model->getProjetosComMedia();
+    
+        echo view('interface/header');
+        echo view('projetos/projetosAprovados', ['projetos' => $projetos]);
         echo view('interface/footer');
     }
 }

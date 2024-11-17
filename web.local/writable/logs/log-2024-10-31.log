@@ -1,0 +1,156 @@
+CRITICAL - 2024-10-31 13:58:31 --> ErrorException: Undefined array key "tipo"
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 326.
+ 1 APPPATH\Views\projetos\listar.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listar.php', 326)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listar', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('projetos/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 13:58:53 --> ErrorException: Undefined array key "tipo"
+[Method: GET, Route: projetos/listar]
+in APPPATH\Views\projetos\listar.php on line 326.
+ 1 APPPATH\Views\projetos\listar.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listar.php', 326)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listar', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('projetos/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->listar()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 13:59:40 --> ErrorException: Undefined variable $proj
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 386.
+ 1 APPPATH\Views\projetos\listarProjetos.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proj', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 386)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-31 15:01:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`descricaoProjeto` VARCHAR NOT NULL,
+	`validado` VARCHAR NOT NULL,...' at line 4 in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\web.local\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\web.local\app\Database\Migrations\2024-08-29-134519_Projetos.php(43): CodeIgniter\Database\Forge->createTable('projetos')
+#5 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(867): App\Database\Migrations\Projetos->up()
+#6 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web.local\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web.local\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web.local\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web.local\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\web.local\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\web.local\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-31 15:05:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:11:09 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:11:27 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:26:53 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:30:23 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:33:24 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:35:16 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 15:35:25 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

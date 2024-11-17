@@ -85,6 +85,7 @@
           </div>
           <div class="col-12 mt-2">
             <a role="button" href="/web.local/public/login/loginUsuario"  class="btn btn-primary btn-block">Acessar como Usuário</a>
+            <a role="button" href="/web.local/public/login/loginAvaliador"  class="btn btn-info btn-block">Acessar como Avaliador</a>
           </div>
       </form>
  

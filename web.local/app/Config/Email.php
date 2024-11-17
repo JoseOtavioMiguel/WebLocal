@@ -28,17 +28,17 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = '';
+    public string $SMTPHost = 'sandbox.smtp.mailtrap.io';
 
     /**
      * SMTP Username
      */
-    public string $SMTPUser = '';
+    public string $SMTPUser = '2254e2ad9962cd';
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = '';
+    public string $SMTPPass = '0d9a5a0da53fac';
 
     /**
      * SMTP Port

@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
+use App\Models\AvaliadoresPoster;
 
 class Avaliador extends BaseController
 {
@@ -45,7 +46,7 @@ class Avaliador extends BaseController
         $avaliador_model = new \App\Models\AvaliadorProjeto();
         $avaliador = $avaliador_model->findAll();
 
-        $data['avaliadoresprojeto'] = $avaliador;
+        $data['avaliadoresposter'] = $avaliador;
 
         $table = new \CodeIgniter\View\table([
                 'table_open' => '<table id="listarAvaliadorPorProjeto" class="table">']);
@@ -77,13 +78,15 @@ class Avaliador extends BaseController
     }
 
 
-    public function designarAvaliadores()
-    {
-        $avaliador_model = new AvaliadorModel();
-        $avaliadores = avaliador_model->findAll();
-
-        $data['avaliadores'] = $avaliadores;
-
-        echo view($data);
-    }
+public function designarAvaliadores()
+{
+    $dados = $this->request
+                        ->getPost();
+        $avaliador_model = new AvaliadoresPoster();
+        $avaliador_model->insert($dados);
+    
+    // Redirecione para a página de listagem de projetos
+    $url = base_url('/web.local/public/projetos/listar/?alert=successDesign');
+    return redirect()->to($url);
+}
 }

@@ -1,0 +1,1026 @@
+CRITICAL - 2024-11-01 02:36:46 --> ErrorException: include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('interfaceUsuario/headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('interfaceUsuario/headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:37:51 --> ErrorException: include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:37:52 --> ErrorException: include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:37:56 --> ErrorException: include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:38:42 --> ErrorException: include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:19 --> ErrorException: include_once(\interfaceUsuario\navbarUsuario): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(\\interfaceUsuario\\navbarUsuario): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:26 --> ErrorException: include_once(\interfaceUsuario\navbarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(\\interfaceUsuario\\navbarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:34 --> ErrorException: include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:35 --> ErrorException: include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/navbarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:40 --> ErrorException: include_once(/navbarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 27.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/navbarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 27)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(27): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:39:45 --> ErrorException: include_once(interfaceUsuario/sidebarUsuario.php): Failed to open stream: No such file or directory
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\interfaceUsuario\headerUsuario.php on line 28.
+ 1 APPPATH\Views\interfaceUsuario\headerUsuario.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(interfaceUsuario/sidebarUsuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php', 28)
+ 2 APPPATH\Views\interfaceUsuario\headerUsuario.php(28): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\interfaceUsuario\\headerUsuario.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\headerUsuario', [], true)
+ 6 APPPATH\Controllers\Login.php(36): view('\\interfaceUsuario\\headerUsuario')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:46:58 --> ErrorException: Undefined variable $projetos
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\projetos\paginaUsuario.php on line 31.
+ 1 APPPATH\Views\projetos\paginaUsuario.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projetos', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\projetos\\paginaUsuario', [], true)
+ 5 APPPATH\Controllers\Login.php(37): view('\\projetos\\paginaUsuario')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:47:28 --> ErrorException: Undefined variable $projetos
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\projetos\paginaUsuario.php on line 44.
+ 1 APPPATH\Views\projetos\paginaUsuario.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projetos', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\projetos\\paginaUsuario', [], true)
+ 5 APPPATH\Controllers\Login.php(37): view('\\projetos\\paginaUsuario')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:48:02 --> ErrorException: Undefined variable $projetos
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Views\projetos\paginaUsuario.php on line 79.
+ 1 APPPATH\Views\projetos\paginaUsuario.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projetos', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php', 79)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\paginaUsuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\projetos\\paginaUsuario', [], true)
+ 5 APPPATH\Controllers\Login.php(37): view('\\projetos\\paginaUsuario')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:51:29 --> Error: Class "App\Controllers\AvaliacaoModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 02:57:49 --> ErrorException: Undefined array key "NomeUsuario"
+[Method: GET, Route: login/paginaUsuario]
+in APPPATH\Controllers\Login.php on line 30.
+ 1 APPPATH\Controllers\Login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NomeUsuario"', 'C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Login.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:43:18 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 11:46:20 --> mysqli_sql_exception: Table 'dbsimpac.avaliadoresprojeto' doesn't exist in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Projetos.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 11:46:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbsimpac.avaliadoresprojeto' doesn't exist
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:46:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbsimpac.avaliadoresprojeto' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'\', \'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'\', \'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:46:20 --> [Caused by] mysqli_sql_exception: Table 'dbsimpac.avaliadoresprojeto' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'\', \'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'\', \'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'\', \'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresprojeto` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Projetos.php(26): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->cadastrarAvaliador()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:49:24 --> ErrorException: Undefined variable $avaliador1
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 26.
+ 1 APPPATH\Views\projetos\listarProjetos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avaliador1', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:49:30 --> ErrorException: Undefined variable $avaliador1
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 26.
+ 1 APPPATH\Views\projetos\listarProjetos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $avaliador1', 'C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web.local\\app\\Views\\projetos\\listarProjetos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 5 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:51:16 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: cadastrarAvaliador]
+in APPPATH\Controllers\Avaliador.php on line 113.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Avaliador.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Avaliador')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Avaliador')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Avaliador', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2024-11-01 11:51:58 --> Array
+(
+    [idProjeto] => 
+    [avaliador1] => 1
+    [avaliador2] => 2
+)
+
+INFO - 2024-11-01 11:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-01 11:54:55 --> Array
+(
+    [idProjeto] => 
+    [avaliador1] => 1
+    [avaliador2] => 2
+)
+
+INFO - 2024-11-01 11:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-01 11:55:53 --> Array
+(
+    [idProjeto] => 
+    [avaliador1] => 2
+    [avaliador2] => 1
+)
+
+INFO - 2024-11-01 11:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-01 11:59:56 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 11:59:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:59:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 11:59:56 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:00:14 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:00:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:00:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:00:14 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:05:05 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:05:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:05:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:05:05 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:06:09 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:06:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:06:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:06:09 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:08:34 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 18.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:08:42 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 18.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:09:00 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: projetos/listarProjeto/58]
+in APPPATH\Views\projetos\listarProjetos.php on line 18.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('projetos/listarProjetos', [], true)
+ 3 APPPATH\Controllers\Projetos.php(42): view('projetos/listarProjetos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Projetos->listarProjeto('58')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projetos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:10:39 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:10:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:10:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:10:39 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`avaliador1`, `avaliador2`) VALUES (:avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:11:51 --> mysqli_sql_exception: Duplicate entry '58' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Avaliador.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:11:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '58' for key 'PRIMARY'
+[Method: POST, Route: cadastrarAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:11:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '58' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'58\', \'1\', \'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'58\', \'1\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:11:51 --> [Caused by] mysqli_sql_exception: Duplicate entry '58' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'58\', \'1\', \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'58\', \'1\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (\'58\', \'1\', \'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliadoresposter` (`idProjeto`, `avaliador1`, `avaliador2`) VALUES (:idProjeto:, :avaliador1:, :avaliador2:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Avaliador.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Avaliador->designarAvaliadores()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Avaliador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 12:17:29 --> mysqli_sql_exception: Duplicate entry '58' for key 'PRIMARY' in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `av...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `av...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `av...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `av...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web.local\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\web.local\app\Controllers\Home.php(111): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Home->avaliarProjetoPoster()
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-01 12:17:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '58' for key 'PRIMARY'
+[Method: POST, Route: avaliarProjetoPoster]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(111): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliarProjetoPoster()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:17:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '58' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'58\', \'7\', \'8\', \'9\', \'8\', \'5\', \'6\', \'6\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'58\', \'7\', \'8\', \'9\', \'8\', \'5\', \'6\', \'6\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(111): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliarProjetoPoster()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 12:17:29 --> [Caused by] mysqli_sql_exception: Duplicate entry '58' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'58\', \'7\', \'8\', \'9\', \'8\', \'5\', \'6\', \'6\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'58\', \'7\', \'8\', \'9\', \'8\', \'5\', \'6\', \'6\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (\'58\', \'7\', \'8\', \'9\', \'8\', \'5\', \'6\', \'6\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `avaliacaoPoster` (`IdProjeto`, `Criterio1`, `Criterio2`, `Criterio3`, `Criterio4`, `Criterio5`, `Criterio6`, `Criterio7`, `Media`) VALUES (:IdProjeto:, :Criterio1:, :Criterio2:, :Criterio3:, :Criterio4:, :Criterio5:, :Criterio6:, :Criterio7:, :Media:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(111): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->avaliarProjetoPoster()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 13:30:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`descricaoProjeto` VARCHAR NOT NULL,
+	`validado` VARCHAR NOT NULL,...' at line 4 in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\web.local\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\web.local\app\Database\Migrations\2024-08-29-134519_Projetos.php(43): CodeIgniter\Database\Forge->createTable('projetos')
+#5 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(867): App\Database\Migrations\Projetos->up()
+#6 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web.local\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web.local\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web.local\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web.local\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\web.local\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\web.local\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-01 13:31:21 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:31:46 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:32:03 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:33:53 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:34:00 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 13:34:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`descricaoProjeto` VARCHAR NOT NULL,
+	`validado` VARCHAR NOT NULL,...' at line 4 in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\web.local\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\web.local\app\Database\Migrations\2024-08-29-134519_Projetos.php(43): CodeIgniter\Database\Forge->createTable('projetos')
+#5 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(867): App\Database\Migrations\Projetos->up()
+#6 C:\xampp\htdocs\web.local\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web.local\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web.local\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web.local\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web.local\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\web.local\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\web.local\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-01 13:34:49 --> Error: Class "App\Controllers\AvaliadorLogin" not found
+[Method: POST, Route: login/paginaAvaliador]
+in APPPATH\Controllers\Login.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-01 13:36:26 --> mysqli_sql_exception: Table 'dbsimpac.avaliadorlogins' doesn't exist in C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\web.local\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web.local\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web.local\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web.local\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web.local\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\web.local\app\Controllers\Login.php(63): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\web.local\system\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+#8 C:\xampp\htdocs\web.local\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\web.local\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web.local\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web.local\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\web.local\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-01 13:36:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbsimpac.avaliadorlogins' doesn't exist
+[Method: POST, Route: login/paginaAvaliador]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = :login:
+AND `senha` = :senha:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Login.php(63): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:36:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'dbsimpac.avaliadorlogins' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = \'joaopedro\'
+AND `senha` = \'joao12345\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = \'joaopedro\'
+AND `senha` = \'joao12345\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = :login:
+AND `senha` = :senha:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Login.php(63): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:36:26 --> [Caused by] mysqli_sql_exception: Table 'dbsimpac.avaliadorlogins' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = \'joaopedro\'
+AND `senha` = \'joao12345\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = \'joaopedro\'
+AND `senha` = \'joao12345\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = \'joaopedro\'
+AND `senha` = \'joao12345\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `avaliadorlogins`
+WHERE `login` = :login:
+AND `senha` = :senha:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Login.php(63): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-01 13:37:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "\interfaceUsuario\header.php"
+[Method: POST, Route: login/paginaAvaliador]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\interfaceUsuario\\header.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('\\interfaceUsuario\\header', [], true)
+ 3 APPPATH\Controllers\Login.php(70): view('\\interfaceUsuario\\header')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->paginaAvaliador()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

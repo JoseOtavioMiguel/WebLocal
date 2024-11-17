@@ -63,9 +63,9 @@
         <?php endif; ?>
 
 
-      <form action="/web.local/public/login/autenticar" method="post">
+      <form action="/web.local/public/login/paginaUsuario" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Digite seu Login" name="Usuario">
+          <input type="text" class="form-control" placeholder="Digite seu Login" name="NomeUsuario">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -95,6 +95,7 @@
           </div>
           <div class="col-12 mt-2">
             <a role="button" href="/web.local/public/login/index"  class="btn btn-primary btn-block">Acessar como Administrador</a>
+            <a role="button" href="/web.local/public/login/loginAvaliador"  class="btn btn-info btn-block">Acessar como Avaliador</a>
           </div>
           </div>
       </form>

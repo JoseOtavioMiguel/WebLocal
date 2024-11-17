@@ -1,0 +1,142 @@
+CRITICAL - 2024-10-27 19:48:50 --> ErrorException: Undefined array key "Usuario"
+[Method: GET, Route: login/autenticar]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 APPPATH\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Usuario"', 'C:\\xampp\\htdocs\\web.local\\app\\Controllers\\Login.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 19:56:39 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 19:57:01 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 19:57:06 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 19:57:58 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 19:57:59 --> Error: Class "App\Controllers\UsuarioModel" not found
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:00:41 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:01:11 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:01:11 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:01:16 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:02:39 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:02:40 --> Error: Undefined constant "App\Controllers\usuario_model"
+[Method: POST, Route: login/autenticarUsuario]
+in APPPATH\Controllers\Login.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->autenticarUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:05:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: login/loginUsuario]
+in APPPATH\Controllers\Login.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('login/loginUsuario', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('login/loginUsuario')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login/loginUsuario')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:05:44 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: login/loginUsuario]
+in APPPATH\Controllers\Login.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('login/loginUsuario', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('login/loginUsuario')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login/loginUsuario')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-27 20:05:46 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: login/index]
+in APPPATH\Controllers\Login.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(563): CodeIgniter\Router\AutoRouter->getRoute('login/index', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->autoRoute('login/index')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

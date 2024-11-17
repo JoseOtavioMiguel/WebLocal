@@ -12,13 +12,13 @@ class ProjetoModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [
-        'id',
+    protected $allowedFields    = [ 
         'nomeProjeto',
         'descricaoProjeto',
         'resumoProjeto',
         'validado',
         'curso',
+        'tipo',
         'data',
     ];
 
@@ -36,11 +36,11 @@ class ProjetoModel extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-    protected $validationRules      = [
+    protected $validationRules      = [ 
         'nomeProjeto' => 'required|min_length[3]|max_length[2000]',
-        'descricaoProjeto' => 'required|min_length[3]|max_length[500]',
-        'resumoProjeto' => 'required|min_length[3]|max_length[500]',
-        'validado' => 'required|min_length[3] |max_length[3]',
+        'descricaoProjeto' => 'required|min_length[3]|max_length[1000]',
+        'resumoProjeto' => 'required|min_length[3]|max_length[1000]',
+        'validado' => 'required|min_length[1] |max_length[10]',
     ];
     protected $validationMessages   = [
             'nomeProjeto' => [

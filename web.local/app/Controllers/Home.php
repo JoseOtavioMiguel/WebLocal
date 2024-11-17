@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ProjetoModel;
 use App\Models\AvaliacaoModel;
+use App\Models\AvaliacaoPosterModel;
 
 class Home extends BaseController
 {
@@ -29,6 +30,14 @@ class Home extends BaseController
 
         echo view('interface/header');
         echo view('projetos/listar', $data);
+        echo view('interface/footer');
+    }
+
+    public function simposio()
+    {
+
+        echo view('interface/header');
+        echo view('projetos/simposio');
         echo view('interface/footer');
     }
 
@@ -65,8 +74,8 @@ class Home extends BaseController
         $dbc = new mysqli_connect($banco, 'admin', 'admin', 'tabela' );
         // querry
         $querry = "UPDATE projetos WHERE $idProjeto == id";
-        
-
+        $url = base_url('/web.local/public/projetos/listar?alert=successEdit');
+        return redirect()->to($url);
     }
 
 
@@ -81,12 +90,34 @@ class Home extends BaseController
 
         if(isset($dados['id']))
         {
-            $url = base_url('/web.local/public/projetos/listar?alert=successEvaluate');
+            $url = base_url('/web.local/public/projetos/listar/');
             return redirect()->to($url);
         }
-        
-        
+        else {
+	{
+        echo("Não foi possível enviar os dados");
     }
+}
+
+        return redirect()->to('/web.local/public/projetos/listar');
+    }
+
+    public function avaliarProjetoPoster()
+    {
+        $dados = $this->request
+                        ->getPost();
+
+        $avaliacao_model = new AvaliacaoPosterModel();
+        $avaliacao_model->insert($dados);
+        $dados = $this->request->getPost();
+
+        if(isset($dados['id']))
+        {
+            $url = base_url('/web.local/public/projetos/listar/');
+            return redirect()->to($url);
+        }
+    }
+
 
 
     public function editar()
